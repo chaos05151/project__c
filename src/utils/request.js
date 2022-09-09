@@ -3,7 +3,7 @@ import axios from 'axios';
 //流量商业化C端接口
 const service = axios.create({
     // baseURL: process.env.NODE_ENV == 'production' ? "https://alcyoneus-api.relationshipapp.com/" : "https://alcyoneus.guanxiapp.cn/",
-    baseURL: "http://192.168.30.227:3000/",
+    // baseURL: "http://192.168.30.227:3000/",
     // baseURL: "https://flora-api.relationshipapp.com/",//生产环境
     // https://alcyoneus.guanxiapp.cn/
     timeout: 50000000000000
